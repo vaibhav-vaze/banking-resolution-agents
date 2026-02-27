@@ -1,13 +1,7 @@
-# .gitignore
-
-# Ignore Environment variables (NEVER UPLOAD API KEYS!)
-.env
-
-# Ignore Python virtual environments
-venv/
+agent_env/
+ollama_models/
 __pycache__/
-
-# Ignore our demo logs
+*.log
 agent_execution_trace.txt
 ui_summary_logs.txt
 colored_agent_trace.html
